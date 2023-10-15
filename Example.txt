@@ -1,0 +1,23 @@
+[+first_tag settings.name="bob"]inside tag text
+	[>new_context_tag width=34 length=121]+another inside tag text
+	[+same_context_tag_nosettings]>after tag text
+	[+same_context_tag_nosettings2]<before tag text
+[<previous_context_tag]
+//comment
+
+
+same in html like language:
+<first_tag>
+	inside tag text
+</first_tag>
+<new_context_tag>
+	another inside tag text
+	<same_context_tag_nosettings>
+	</same_context_tag_nosettings>
+	after tag text
+	before tag text
+	<same_context_tag_nosettings2>
+	</same_context_tag_nosettings2>
+</new_context_tag>
+<previous_context>
+</previous_context>

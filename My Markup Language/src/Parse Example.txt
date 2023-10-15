@@ -1,0 +1,6 @@
+[+first_tag settings.name="bob"]inside tag text
+	[>new_context_tag width=34 length=121.5]+another inside tag text
+	[+same_context_tag_nosettings]>after tag text
+	[+same_context_tag_nosettings2]<before tag text
+[<previous_context_tag]
+//comment
